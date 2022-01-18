@@ -1,0 +1,39 @@
+Smatch -> P: 0.54, R: 0.47, F: 0.50
+Full match -> Accuracy: 0.00
+Unlabeled -> P: 0.60, R: 0.53, F: 0.56
+No WSD -> P: 0.55, R: 0.48, F: 0.52
+month -> P: 1.00, R: 1.00, F: 1.00
+ARG1-of -> P: 0.00, R: 0.00, F: 0.00
+manner -> P: 0.00, R: 0.00, F: 0.00
+IgnoreVars -> P: 0.28, R: 0.24, F: 0.26
+year -> P: 0.50, R: 0.50, F: 0.50
+duration -> P: 0.00, R: 0.00, F: 0.00
+unit -> P: 0.67, R: 0.67, F: 0.67
+dayperiod -> P: 0.00, R: 0.00, F: 0.00
+poss -> P: 0.12, R: 0.33, F: 0.18
+consist-of -> P: 0.00, R: 0.00, F: 0.00
+ARG2-of -> P: 0.00, R: 0.00, F: 0.00
+instrument -> P: 0.00, R: 0.00, F: 0.00
+quant -> P: 0.75, R: 0.50, F: 0.60
+Negations -> P: 1.00, R: 0.50, F: 0.67
+location -> P: 1.00, R: 0.33, F: 0.50
+polarity -> P: 1.00, R: 0.50, F: 0.67
+degree -> P: 0.20, R: 0.25, F: 0.22
+Wikification -> P: 0.50, R: 0.12, F: 0.20
+time-of -> P: 0.00, R: 0.00, F: 0.00
+purpose -> P: 0.50, R: 0.50, F: 0.50
+Concepts -> P: 0.68, R: 0.70, F: 0.69
+ARG0-of -> P: 0.00, R: 0.00, F: 0.00
+condition -> P: 0.00, R: 0.00, F: 0.00
+mod -> P: 0.23, R: 0.27, F: 0.25
+name -> P: 1.00, R: 0.22, F: 0.36
+ARG0 -> P: 0.54, R: 0.53, F: 0.54
+ARG1 -> P: 0.65, R: 0.58, F: 0.61
+ARG2 -> P: 0.44, R: 0.44, F: 0.44
+ARG3 -> P: 0.50, R: 0.25, F: 0.33
+ARG4 -> P: 1.00, R: 0.50, F: 0.67
+value -> P: 0.00, R: 0.00, F: 0.00
+time -> P: 0.44, R: 0.40, F: 0.42
+Named Ent. -> P: 1.00, R: 0.22, F: 0.36
+Reentrancies -> P: 0.45, R: 0.40, F: 0.42
+SRL -> P: 0.54, R: 0.50, F: 0.52
