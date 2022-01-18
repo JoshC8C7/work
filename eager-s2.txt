@@ -1,0 +1,52 @@
+ calculating smatch and sub-task metrics based on smatch alignment
+------------------------------------------
+Smatch -> P: 0.571, R: 0.481, F: 0.522
+Unlabeled -> P: 0.640, R: 0.538, F: 0.585
+No WSD -> P: 0.595, R: 0.500, F: 0.543
+Non_sense_frames -> P: 0.907, R: 0.747, F: 0.819
+Wikification -> P: 0.250, R: 0.125, F: 0.167
+Named Ent. -> P: 0.400, R: 0.222, F: 0.286
+Negations -> P: 0.250, R: 0.250, F: 0.250
+IgnoreVars -> P: 0.293, R: 0.247, F: 0.268
+Concepts -> P: 0.749, R: 0.700, F: 0.724
+Frames -> P: 0.789, R: 0.652, F: 0.714
+Reentrancies -> P: 0.439, R: 0.317, F: 0.368
+SRL -> P: 0.548, R: 0.397, F: 0.460
+------------------------------------------
+------------------------------------------
+calculating s2match and subtask metrics based on s2match alignment; params: vectors = glove 100d, sim = cosim, threshold = 0.5
+------------------------------------------
+S2match -> P: 0.609, R: 0.512, F: 0.557
+Unlabeled -> P: 0.670, R: 0.563, F: 0.612
+No WSD -> P: 0.615, R: 0.517, F: 0.562
+Non_sense_frames -> P: 0.907, R: 0.747, F: 0.819
+Wikification -> P: 0.250, R: 0.125, F: 0.167
+Named Ent. -> P: 0.400, R: 0.222, F: 0.286
+Negations -> P: 0.250, R: 0.250, F: 0.250
+IgnoreVars -> P: 0.293, R: 0.247, F: 0.268
+Concepts -> P: 0.749, R: 0.700, F: 0.724
+Frames -> P: 0.789, R: 0.652, F: 0.714
+Reentrancies -> P: 0.461, R: 0.333, F: 0.386
+SRL -> P: 0.579, R: 0.420, F: 0.487
+------------------------------------------
+------------------------------------------
+graph structure error
+------------------------------------------
+A stats:
+                avg. degree=2.0
+                avg. density=0.0488839858358
+                avg. |V|=33.8461538462
+                 avg. |E|=35.6153846154
+B stats:
+                avg. degree=1.84615384615
+                avg. density=0.0394261843077
+                avg. |V|=38.9230769231
+                 avg. |E|=42.5384615385
+avg. absolute error:
+                degree=0.153846153846
+                density=0.0100382951061
+                |V|=5.07692307692
+                |E|=6.92307692308
+------------------------------------------
+EVALUATION COMPLETE
+------------------------------------------
